@@ -1,0 +1,26 @@
+h3{
+    font-size : 25px !important;
+    
+}
+
+.btn-success:hover{
+    background-color: rgb(13, 255, 0);
+    color:black;
+    font-weight: bold;
+}
+
+canvas{
+    animation-name: sootired;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sootired{
+    from{
+        box-shadow: 1px 1px 40px red;
+        
+    }
+    to{
+        box-shadow: 1px 1px 40px blue;
+    }
+}
